@@ -8,5 +8,10 @@ module.exports = defineConfig({
       return require('./cypress/plugins/index.js')(on, config)
     },
     baseUrl: 'https://beta-app.zujudigital.com',
+    defaultCommandTimeout: 10000,
+    viewportHeight: 768,
+    viewportWidth: 1366,
+    experimentalSessionAndOrigin: true,
+    hideXHR: true
   },
 })

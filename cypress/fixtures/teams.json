@@ -1,0 +1,23 @@
+{
+  "count": 81,
+  "teams": [
+    {
+      "name": "HCM 1"
+    },
+    {
+      "name": "HCM 2"
+    }
+  ],
+  "searchs" : [{
+      "searchText" : "Chelsea",
+      "totalResults": 1
+    },
+    {
+      "searchText" : "Tiktok",
+      "totalResults": 0
+    },
+    {
+      "searchText" : "Test",
+      "totalResults": 4
+    }]
+}
